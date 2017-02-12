@@ -23,8 +23,8 @@ contract token {
     /* Public variables of the token */
     string public standard = 'BerkeleyToken 0.1';
     string public name;
-    string public symbol;
-    uint8 public decimals;
+    string public symbol= 'Ticket(s)';
+    uint8 public decimals = 0;
     uint256 public totalSupply;
 
     /* This creates an array with all balances */
